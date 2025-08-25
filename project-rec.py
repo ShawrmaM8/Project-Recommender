@@ -8,10 +8,9 @@ with open(r"C:\Users\muzam\OneDrive\Desktop\PROJECTS\project-recommend\projects.
 st.title('Project Recommender')
 st.subheader('Discover projects that match your skills, goals & interests')
 
-# Sidebar controls (not in form)
 st.sidebar.header("Set your preferences")
 
-# Form for main input
+# --- FORM START ---
 with st.form(key='recommender'):
     # sliders
     pref_complexity = st.slider("Technical Complexity", min_value=0, max_value=10)
@@ -22,8 +21,9 @@ with st.form(key='recommender'):
     tags_input = st.text_input('Libraries/Tools used (comma-separated)')
     tags = [tag.strip().lower() for tag in tags_input.split(",") if tag.strip()]
 
-    # submit button
+    # ✅ submit button INSIDE form
     submit = st.form_submit_button('Get Idea')
+# --- FORM END ---
 
 
 # scoring function
@@ -39,7 +39,7 @@ def score_project(proj):
 
 
 # rank projects
-if submit:
+if submit:  # ✅ works now
     ranked_projects = sorted(projects, key=score_project, reverse=True)
     
     st.header('Recommended Projects')
@@ -54,6 +54,5 @@ if submit:
             st.write('Complexity:', proj['complexity'])
             st.markdown('---')
 
-    
 
 
