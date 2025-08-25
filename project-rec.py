@@ -8,19 +8,19 @@ with open(r"C:\Users\muzam\OneDrive\Desktop\PROJECTS\project-recommend\projects.
 # Page title
 st.title('Project Recommender')
 st.subheader('Discover projects that match your skills, goals & interests')
-
+st.subheader('تعال شوف مشاريع برمجة تناسب مهاراتك وأهدافك واهتماماتك')
 # Sidebar (optional for extra controls in future)
-st.sidebar.header("Set your preferences")
+st.sidebar.header("Set your preferences (تفضيلاتك)")
 
 # --- FORM START ---
 with st.form(key='recommender'):
     # sliders
-    pref_complexity = st.slider("Technical Complexity", min_value=0, max_value=10)
-    pref_usefulness = st.slider("Usefulness/Practicality", min_value=0, max_value=10)
-    pref_scalability = st.slider("Scalability", min_value=0, max_value=10)
+    pref_complexity = st.slider("Technical Complexity (تعقيد)", min_value=0, max_value=10)
+    pref_usefulness = st.slider("Usefulness/Practicality (فائدة)", min_value=0, max_value=10)
+    pref_scalability = st.slider("Scalability (قابلية التوسيع)", min_value=0, max_value=10)
 
     # keywords  
-    tags_input = st.text_input('Libraries/Tools used (comma-separated)')
+    tags_input = st.text_input('Libraries/Tools used [comma-separated] (أدوات البرنامج المستخدمة)')
     tags = [tag.strip().lower() for tag in tags_input.split(",") if tag.strip()]
 
     # ✅ submit button inside the form
@@ -55,3 +55,4 @@ if submit:  # will only run when user presses "Get Idea"
             st.write('Tags:', ", ".join(proj['tags']))
             st.write('Complexity:', proj['complexity'])
             st.markdown('---')
+
