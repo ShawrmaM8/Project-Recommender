@@ -30,7 +30,7 @@ def score_project(proj):
 
 # rank projects
 
-if st.button('Get Idea'):
+if st.form_submit_button('Get Idea'):
     
     ranked_projects = sorted(projects, key=score_project, reverse=True)
     
@@ -48,3 +48,4 @@ if st.button('Get Idea'):
         
     
     
+
