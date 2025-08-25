@@ -1,0 +1,482 @@
+[
+  {
+    "title": "Stock Price Predictor",
+    "description": "Build a model to forecast stock prices using time series analysis.",
+    "tags": ["Time Series", "LSTM", "Python", "Pandas", "Keras"],
+    "complexity": 7,
+    "usefulness": 9,
+    "scalability": 8
+  },
+  {
+    "title": "Emotion Recognition from Speech",
+    "description": "Detect emotions in audio clips using deep learning.",
+    "tags": ["Audio Processing", "CNN", "Librosa", "TensorFlow", "Speech AI"],
+    "complexity": 8,
+    "usefulness": 7,
+    "scalability": 6
+  },
+  {
+    "title": "Personalized Music Recommender",
+    "description": "Recommend songs based on user listening history.",
+    "tags": ["Recommendation System", "Collaborative Filtering", "Python", "Surprise", "Spotify API"],
+    "complexity": 5,
+    "usefulness": 8,
+    "scalability": 9
+  },
+  {
+    "title": "Object Detection in Videos",
+    "description": "Identify and track objects in real-time video streams.",
+    "tags": ["YOLO", "OpenCV", "Computer Vision", "Deep Learning", "TensorFlow"],
+    "complexity": 9,
+    "usefulness": 8,
+    "scalability": 7
+  },
+  {
+    "title": "Fraud Detection System",
+    "description": "Detect fraudulent transactions using anomaly detection.",
+    "tags": ["Anomaly Detection", "Isolation Forest", "scikit-learn", "Python", "Finance AI"],
+    "complexity": 6,
+    "usefulness": 10,
+    "scalability": 10
+  },
+  {
+    "title": "Language Translation Model",
+    "description": "Build a neural machine translation system for two languages.",
+    "tags": ["NLP", "Seq2Seq", "TensorFlow", "Transformer", "Translation"],
+    "complexity": 8,
+    "usefulness": 9,
+    "scalability": 5
+  },
+  {
+    "title": "Iris Flower Classification",
+    "description": "Classify iris flowers using basic machine learning algorithms.",
+    "tags": ["Classification", "scikit-learn", "Python", "KNN", "SVM"],
+    "complexity": 2,
+    "usefulness": 4,
+    "scalability": 3
+  },
+  {
+    "title": "Autonomous Drone Navigation",
+    "description": "Use RL to train a drone to navigate obstacles.",
+    "tags": ["Reinforcement Learning", "DQN", "Python", "Gym", "Drone AI"],
+    "complexity": 10,
+    "usefulness": 7,
+    "scalability": 4
+  },
+  {
+    "title": "Movie Recommendation Engine",
+    "description": "Suggest movies based on user ratings and preferences.",
+    "tags": ["Content-Based Filtering", "Matrix Factorization", "Pandas", "scikit-learn", "MovieLens"],
+    "complexity": 5,
+    "usefulness": 8,
+    "scalability": 9
+  },
+  {
+    "title": "Pose Estimation Project",
+    "description": "Estimate human poses from images or videos.",
+    "tags": ["OpenPose", "Computer Vision", "Deep Learning", "TensorFlow", "Keypoints"],
+    "complexity": 9,
+    "usefulness": 6,
+    "scalability": 5
+  },
+  {
+    "title": "Weather Forecasting Model",
+    "description": "Predict weather conditions using historical data.",
+    "tags": ["Time Series", "ARIMA", "Prophet", "Python", "Pandas"],
+    "complexity": 6,
+    "usefulness": 7,
+    "scalability": 8
+  },
+  {
+    "title": "Text Summarization Tool",
+    "description": "Automatically summarize long articles using NLP.",
+    "tags": ["NLP", "BERT", "Hugging Face", "Extractive Summarization", "Python"],
+    "complexity": 7,
+    "usefulness": 9,
+    "scalability": 7
+  },
+  {
+    "title": "Credit Card Default Prediction",
+    "description": "Predict if a customer will default on credit card payments.",
+    "tags": ["Classification", "Random Forest", "scikit-learn", "Imbalanced Data", "Finance"],
+    "complexity": 5,
+    "usefulness": 9,
+    "scalability": 10
+  },
+  {
+    "title": "Virtual Try-On System",
+    "description": "Allow users to try on clothes virtually using AR.",
+    "tags": ["Augmented Reality", "Computer Vision", "Deep Learning", "OpenCV", "TensorFlow"],
+    "complexity": 10,
+    "usefulness": 8,
+    "scalability": 6
+  },
+  {
+    "title": "House Price Prediction",
+    "description": "Estimate house prices based on features like location and size.",
+    "tags": ["Regression", "XGBoost", "Python", "Pandas", "Real Estate"],
+    "complexity": 4,
+    "usefulness": 8,
+    "scalability": 7
+  },
+  {
+    "title": "Named Entity Recognition",
+    "description": "Extract entities like names and locations from text.",
+    "tags": ["NLP", "spaCy", "Python", "CRF", "BERT"],
+    "complexity": 6,
+    "usefulness": 7,
+    "scalability": 8
+  },
+  {
+    "title": "AI Chess Engine",
+    "description": "Build an AI to play chess using minimax algorithm.",
+    "tags": ["Game AI", "Minimax", "Python", "Chess Library", "Alpha-Beta"],
+    "complexity": 8,
+    "usefulness": 5,
+    "scalability": 3
+  },
+  {
+    "title": "Plant Disease Detection",
+    "description": "Identify plant diseases from leaf images.",
+    "tags": ["Image Classification", "CNN", "TensorFlow", "Transfer Learning", "Agriculture AI"],
+    "complexity": 7,
+    "usefulness": 9,
+    "scalability": 6
+  },
+  {
+    "title": "Voice Assistant",
+    "description": "Create a simple voice-controlled assistant.",
+    "tags": ["Speech Recognition", "NLP", "Python", "PyAudio", "Assistant AI"],
+    "complexity": 7,
+    "usefulness": 8,
+    "scalability": 5
+  },
+  {
+    "title": "Anomaly Detection in Networks",
+    "description": "Detect unusual patterns in network traffic.",
+    "tags": ["Cybersecurity", "Autoencoder", "scikit-learn", "Deep Learning", "Network AI"],
+    "complexity": 9,
+    "usefulness": 10,
+    "scalability": 9
+  },
+  {
+    "title": "Boston Housing Analysis",
+    "description": "Analyze and predict housing prices in Boston dataset.",
+    "tags": ["Regression", "scikit-learn", "Python", "Data Visualization", "Matplotlib"],
+    "complexity": 3,
+    "usefulness": 5,
+    "scalability": 4
+  },
+  {
+    "title": "Style Transfer Project",
+    "description": "Apply artistic styles to images using neural networks.",
+    "tags": ["Neural Style Transfer", "VGG", "TensorFlow", "Deep Learning", "Art AI"],
+    "complexity": 8,
+    "usefulness": 6,
+    "scalability": 4
+  },
+  {
+    "title": "Customer Churn Prediction",
+    "description": "Predict which customers are likely to leave a service.",
+    "tags": ["Classification", "Logistic Regression", "Python", "Pandas", "Business AI"],
+    "complexity": 5,
+    "usefulness": 9,
+    "scalability": 10
+  },
+  {
+    "title": "Super Resolution Images",
+    "description": "Enhance image resolution using GANs.",
+    "tags": ["GAN", "SRGAN", "Deep Learning", "TensorFlow", "Image Enhancement"],
+    "complexity": 9,
+    "usefulness": 7,
+    "scalability": 5
+  },
+  {
+    "title": "Diabetes Prediction",
+    "description": "Predict diabetes onset using patient data.",
+    "tags": ["Classification", "SVM", "scikit-learn", "Python", "Health AI"],
+    "complexity": 4,
+    "usefulness": 8,
+    "scalability": 6
+  },
+  {
+    "title": "Question Answering System",
+    "description": "Build a system to answer questions from a given context.",
+    "tags": ["NLP", "BERT", "Hugging Face", "Transformer", "QA Model"],
+    "complexity": 7,
+    "usefulness": 9,
+    "scalability": 7
+  },
+  {
+    "title": "AI Snake Game Player",
+    "description": "Train an AI to play the Snake game optimally.",
+    "tags": ["Reinforcement Learning", "Q-Learning", "Pygame", "Python", "Game AI"],
+    "complexity": 6,
+    "usefulness": 4,
+    "scalability": 3
+  },
+  {
+    "title": "License Plate Recognition",
+    "description": "Detect and read license plates from images.",
+    "tags": ["OCR", "OpenCV", "Tesseract", "Computer Vision", "Deep Learning"],
+    "complexity": 8,
+    "usefulness": 8,
+    "scalability": 7
+  },
+  {
+    "title": "Wine Quality Prediction",
+    "description": "Predict wine quality based on chemical properties.",
+    "tags": ["Regression", "Random Forest", "scikit-learn", "Python", "Food AI"],
+    "complexity": 4,
+    "usefulness": 6,
+    "scalability": 5
+  },
+  {
+    "title": "Generative Art Creator",
+    "description": "Use GANs to generate unique artworks.",
+    "tags": ["GAN", "Deep Learning", "TensorFlow", "Art Generation", "Creative AI"],
+    "complexity": 8,
+    "usefulness": 5,
+    "scalability": 4
+  },
+  {
+    "title": "Heart Disease Classifier",
+    "description": "Classify presence of heart disease from medical data.",
+    "tags": ["Classification", "KNN", "scikit-learn", "Python", "Medical AI"],
+    "complexity": 3,
+    "usefulness": 9,
+    "scalability": 6
+  },
+  {
+    "title": "Topic Modeling on News",
+    "description": "Extract topics from a corpus of news articles.",
+    "tags": ["NLP", "LDA", "Gensim", "Python", "Text Mining"],
+    "complexity": 6,
+    "usefulness": 7,
+    "scalability": 8
+  },
+  {
+    "title": "AI Pac-Man Agent",
+    "description": "Train an agent to play Pac-Man using RL.",
+    "tags": ["Reinforcement Learning", "DQN", "Gym", "Python", "Retro Games"],
+    "complexity": 9,
+    "usefulness": 4,
+    "scalability": 3
+  },
+  {
+    "title": "Barcode Scanner",
+    "description": "Detect and decode barcodes in images.",
+    "tags": ["Computer Vision", "PyZbar", "OpenCV", "Python", "Image Processing"],
+    "complexity": 5,
+    "usefulness": 7,
+    "scalability": 5
+  },
+  {
+    "title": "Sales Forecasting",
+    "description": "Forecast future sales using time series models.",
+    "tags": ["Time Series", "SARIMA", "Prophet", "Python", "Business Analytics"],
+    "complexity": 7,
+    "usefulness": 9,
+    "scalability": 9
+  },
+  {
+    "title": "Deepfake Detection",
+    "description": "Build a model to detect deepfake videos.",
+    "tags": ["Deep Learning", "CNN", "TensorFlow", "Video Analysis", "Security AI"],
+    "complexity": 10,
+    "usefulness": 10,
+    "scalability": 7
+  },
+  {
+    "title": "Spam SMS Detector",
+    "description": "Classify SMS messages as spam or not.",
+    "tags": ["NLP", "Naive Bayes", "scikit-learn", "Python", "Text Classification"],
+    "complexity": 4,
+    "usefulness": 8,
+    "scalability": 6
+  },
+  {
+    "title": "Autonomous Car Simulation",
+    "description": "Simulate self-driving car behavior using RL.",
+    "tags": ["Reinforcement Learning", "CARLA", "Python", "Deep RL", "Autonomous Vehicles"],
+    "complexity": 10,
+    "usefulness": 9,
+    "scalability": 5
+  },
+  {
+    "title": "Flower Species Classifier",
+    "description": "Classify different flower species from images.",
+    "tags": ["Image Classification", "CNN", "TensorFlow", "Transfer Learning", "Botany AI"],
+    "complexity": 5,
+    "usefulness": 6,
+    "scalability": 4
+  },
+  {
+    "title": "Music Genre Classification",
+    "description": "Classify music clips into genres using audio features.",
+    "tags": ["Audio Processing", "MFCC", "scikit-learn", "Librosa", "Music AI"],
+    "complexity": 6,
+    "usefulness": 7,
+    "scalability": 6
+  },
+  {
+    "title": "Edge Case: Basic Hello World ML",
+    "description": "A trivial ML model that always predicts a constant.",
+    "tags": ["Python", "scikit-learn", "Dummy Classifier", "Basics", "Tutorial"],
+    "complexity": 1,
+    "usefulness": 1,
+    "scalability": 1
+  },
+  {
+    "title": "Edge Case: Ultra Complex Quantum ML",
+    "description": "Integrate quantum computing with ML for optimization problems.",
+    "tags": ["Quantum AI", "Qiskit", "TensorFlow Quantum", "Advanced", "Physics"],
+    "complexity": 10,
+    "usefulness": 10,
+    "scalability": 1
+  },
+  {
+    "title": "Edge Case: High Scalability Data Pipeline",
+    "description": "Build a distributed ML pipeline for massive datasets.",
+    "tags": ["Spark", "Distributed Computing", "Python", "Big Data", "MLflow"],
+    "complexity": 9,
+    "usefulness": 9,
+    "scalability": 10
+  },
+  {
+    "title": "Edge Case: Low Usefulness Toy Model",
+    "description": "A model that predicts random noise with no practical value.",
+    "tags": ["Noise Generation", "GAN", "TensorFlow", "Experimental", "Fun Project"],
+    "complexity": 5,
+    "usefulness": 1,
+    "scalability": 2
+  },
+  {
+    "title": "Edge Case: Minimal Complexity Image Filter",
+    "description": "Apply basic grayscale filter to images.",
+    "tags": ["Image Processing", "OpenCV", "Python", "Filters", "Beginner"],
+    "complexity": 1,
+    "usefulness": 3,
+    "scalability": 10
+  },
+  {
+    "title": "Edge Case: Max Everything AI System",
+    "description": "A comprehensive AI for global optimization in supply chain.",
+    "tags": ["Optimization", "RL", "Deep Learning", "Python", "Supply Chain"],
+    "complexity": 10,
+    "usefulness": 10,
+    "scalability": 10
+  },
+  {
+    "title": "Edge Case: High Complexity Low Scale",
+    "description": "Detailed simulation of neural networks in biology.",
+    "tags": ["Bioinformatics", "Neural Simulation", "Python", "Complex Models", "Research"],
+    "complexity": 10,
+    "usefulness": 8,
+    "scalability": 1
+  },
+  {
+    "title": "Edge Case: Low Everything Data Plot",
+    "description": "Simple plot of random data points.",
+    "tags": ["Matplotlib", "Python", "Data Viz", "Basic", "Plotting"],
+    "complexity": 1,
+    "usefulness": 2,
+    "scalability": 1
+  },
+  {
+    "title": "Edge Case: High Usefulness Simple Tool",
+    "description": "Basic calculator enhanced with ML for predictions.",
+    "tags": ["Python", "scikit-learn", "Simple ML", "Utility", "Prediction"],
+    "complexity": 2,
+    "usefulness": 10,
+    "scalability": 5
+  },
+  {
+    "title": "Edge Case: Mixed Extremes RL Game",
+    "description": "RL agent for a simple game with complex training.",
+    "tags": ["Reinforcement Learning", "Q-Learning", "Python", "Game", "Mixed"],
+    "complexity": 10,
+    "usefulness": 3,
+    "scalability": 10
+  },
+  {
+    "title": "Recipe Ingredient Predictor",
+    "description": "Predict missing ingredients in recipes using ML.",
+    "tags": ["NLP", "scikit-learn", "Python", "Food AI", "Recommendation"],
+    "complexity": 5,
+    "usefulness": 7,
+    "scalability": 6
+  },
+  {
+    "title": "Satellite Image Analysis",
+    "description": "Classify land use from satellite imagery.",
+    "tags": ["Remote Sensing", "CNN", "TensorFlow", "GIS", "Earth AI"],
+    "complexity": 8,
+    "usefulness": 9,
+    "scalability": 7
+  },
+  {
+    "title": "Poetry Generator",
+    "description": "Generate poems in a specific style using RNNs.",
+    "tags": ["Generative AI", "LSTM", "NLP", "TensorFlow", "Creative Writing"],
+    "complexity": 7,
+    "usefulness": 5,
+    "scalability": 4
+  },
+  {
+    "title": "Traffic Flow Prediction",
+    "description": "Predict traffic congestion using historical data.",
+    "tags": ["Time Series", "LSTM", "Python", "Pandas", "Urban AI"],
+    "complexity": 7,
+    "usefulness": 8,
+    "scalability": 8
+  },
+  {
+    "title": "Gesture Recognition",
+    "description": "Recognize hand gestures from video input.",
+    "tags": ["Computer Vision", "Mediapipe", "OpenCV", "Deep Learning", "HCI"],
+    "complexity": 8,
+    "usefulness": 7,
+    "scalability": 5
+  },
+  {
+    "title": "Book Recommendation System",
+    "description": "Recommend books based on reading history.",
+    "tags": ["Recommendation", "Collaborative Filtering", "Python", "Goodreads API", "NLP"],
+    "complexity": 6,
+    "usefulness": 8,
+    "scalability": 9
+  },
+  {
+    "title": "Energy Consumption Forecaster",
+    "description": "Forecast household energy use with ML models.",
+    "tags": ["Time Series", "XGBoost", "Python", "Energy AI", "Sustainability"],
+    "complexity": 6,
+    "usefulness": 9,
+    "scalability": 7
+  },
+  {
+    "title": "Facial Emotion Detector",
+    "description": "Detect emotions from facial expressions in images.",
+    "tags": ["Computer Vision", "CNN", "OpenCV", "TensorFlow", "Emotion AI"],
+    "complexity": 7,
+    "usefulness": 8,
+    "scalability": 6
+  },
+  {
+    "title": "Cryptocurrency Trend Analyzer",
+    "description": "Analyze and predict crypto price trends.",
+    "tags": ["Time Series", "LSTM", "Python", "Crypto API", "Finance AI"],
+    "complexity": 8,
+    "usefulness": 7,
+    "scalability": 8
+  },
+  {
+    "title": "Personal Fitness Coach AI",
+    "description": "Provide personalized workout plans using user data.",
+    "tags": ["Recommendation", "scikit-learn", "Python", "Fitness AI", "Health"],
+    "complexity": 6,
+    "usefulness": 9,
+    "scalability": 7
+  }
+]
