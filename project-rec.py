@@ -1,23 +1,32 @@
-import streamlit as st, pandas as pd, json
+import streamlit as st
+import json
 
+# Load projects
 with open(r"C:\Users\muzam\OneDrive\Desktop\PROJECTS\project-recommend\projects.json", "r") as f:
     projects = json.load(f)
 
-with st.form(key='recommender'):
-    st.title('Project Recommender')
-    st.subheader('Discover projects that match your skills, goals & interests')
+st.title('Project Recommender')
+st.subheader('Discover projects that match your skills, goals & interests')
 
+# Sidebar controls (not in form)
+st.sidebar.header("Set your preferences")
+
+# Form for main input
+with st.form(key='recommender'):
     # sliders
-    st.sidebar.header("Set your preferences")
     pref_complexity = st.slider("Technical Complexity", min_value=0, max_value=10)
     pref_usefulness = st.slider("Usefulness/Practicality", min_value=0, max_value=10)
     pref_scalability = st.slider('Scalability', min_value=0, max_value=10)
-  
+
     # keywords  
     tags_input = st.text_input('Libraries/Tools used (comma-separated)')
-    tags = [tag.strip() for tag in tags_input.split(",") if tag.strip()]
+    tags = [tag.strip().lower() for tag in tags_input.split(",") if tag.strip()]
 
-# scoring 
+    # submit button
+    submit = st.form_submit_button('Get Idea')
+
+
+# scoring function
 def score_project(proj):
     slider_score = 10 - abs(proj["complexity"] - pref_complexity)
     slider_score += 10 - abs(proj["usefulness"] - pref_usefulness)
@@ -28,10 +37,9 @@ def score_project(proj):
     weighted_score = slider_score + tag_score * 5
     return weighted_score
 
-# rank projects
 
-if st.form_submit_button('Get Idea'):
-    
+# rank projects
+if submit:
     ranked_projects = sorted(projects, key=score_project, reverse=True)
     
     st.header('Recommended Projects')
@@ -45,7 +53,7 @@ if st.form_submit_button('Get Idea'):
             st.write('Tags:', ", ".join(proj['tags']))
             st.write('Complexity:', proj['complexity'])
             st.markdown('---')
-        
+
     
-    
+
 
